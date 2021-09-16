@@ -27,6 +27,46 @@ if($x===$y){
 else{
   echo "Różne";
 }
+$x = 10;
+$x++;
+echo $x; //11
+echo "<br>";
+
+$x=$x++;
+echo $x; //11
+echo "<br>";
+
+$y=$x++;
+echo $x; //12
+echo "<br>";
+echo $y; //11
+echo "<br>";
+echo "<br>";
+
+// zadanie 1
+$x=1;
+echo $x; //1
+echo "<br>";
+
+$x=$x++;
+echo $x; //1
+echo "<br>";
+
+$x=++$x; 
+echo $x; //2
+echo "<br>";
+
+$y=++$x;
+echo $x; //3
+echo "<br>";
+echo $y; //3
+echo "<br>";
+
+$y=$x++;
+echo $x; //4
+echo "<br>";
+echo $y; //3
+echo "<br>";
 ?>
 
 </body>
